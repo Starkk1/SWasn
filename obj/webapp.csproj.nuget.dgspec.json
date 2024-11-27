@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stark\\Desktop\\webapp\\webapp.csproj": {}
+    "C:\\Users\\Stark\\Desktop\\webapp\\SWasn\\webapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stark\\Desktop\\webapp\\webapp.csproj": {
+    "C:\\Users\\Stark\\Desktop\\webapp\\SWasn\\webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stark\\Desktop\\webapp\\webapp.csproj",
+        "projectUniqueName": "C:\\Users\\Stark\\Desktop\\webapp\\SWasn\\webapp.csproj",
         "projectName": "webapp",
-        "projectPath": "C:\\Users\\Stark\\Desktop\\webapp\\webapp.csproj",
+        "projectPath": "C:\\Users\\Stark\\Desktop\\webapp\\SWasn\\webapp.csproj",
         "packagesPath": "C:\\Users\\Stark\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stark\\Desktop\\webapp\\obj\\",
+        "outputPath": "C:\\Users\\Stark\\Desktop\\webapp\\SWasn\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stark\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -48,6 +48,8 @@
               "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
             }
