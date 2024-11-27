@@ -4,21 +4,21 @@ pipeline {
     stage('Build') {
       steps {
         script {
-          sh 'dotnet build YourApiProjectName.sln'
+          bat 'dotnet build Microservices.sln'
         }
       }
     }
     stage('Docker Build') {
       steps {
         script {
-          sh 'docker build -t your-api-image-name .'
+          bat 'docker build -t microservices-api .'
         }
       }
     }
     stage('Deploy to Staging') {
       steps {
         script {
-          sh 'docker-compose up --build -d'
+          bat 'docker-compose up --build -d'
         }
       }
     }
